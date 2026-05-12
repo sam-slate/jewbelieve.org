@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Brown Square Campaign — a satirical campaign against antisemitism." />
+  <title>#brownsquarecampaign — jewbelieve.org</title>
+
+  <!-- Favicons (generated via favicon.io). The full set covers tab icons,
+       iOS home-screen, and Android Chrome PWA install. -->
+  <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon_io/site.webmanifest" />
+  <meta name="theme-color" content="#e23b5d" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============== NAV ============== -->
+  <nav class="nav">
+    <a href="#hero" class="nav__brand">
+      <span class="nav__brand-mark">🟫</span>
+      <span class="nav__brand-text">jewbelieve<span class="nav__brand-tld">.org</span></span>
+    </a>
+    <ul class="nav__links" id="navMenu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#letter">Letter</a></li>
+      <li><a href="#command-center">Tracker</a></li>
+      <li><a href="#download">Download</a></li>
+      <li><a href="#store">Store</a></li>
+    </ul>
+    <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu" type="button">
+      <span class="nav__toggle-bar"></span>
+      <span class="nav__toggle-bar"></span>
+      <span class="nav__toggle-bar"></span>
+    </button>
+  </nav>
+
+  <!-- ============== HERO (slideshow) ============== -->
+  <section class="hero" id="hero">
+    <div class="hero__slideshow" aria-hidden="true">
+      <noscript>
+        <div class="hero__slide hero__slide--active" style="background-image:url('images/can%20a%20billboard%20end%20but%20jews%20have%20butts%20-%20jewbelieve.png')"></div>
+      </noscript>
+    </div>
+
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <h1 class="hero__hashtag hero__hashtag--1">
+        <span class="hero__hashtag-symbol">#</span>brownsquarecampaign
+      </h1>
+      <p class="hero__hashtag hero__hashtag--2">
+        <span class="hero__hashtag-symbol">#</span>jewsdohavebutts
+      </p>
+      <p class="hero__hashtag hero__hashtag--3" aria-label="hashtag three brown squares">
+        <span class="hero__hashtag-symbol">#</span><span class="hero__hashtag-squares" aria-hidden="true"><span class="square"></span><span class="square"></span><span class="square"></span></span>
+      </p>
+    </div>
+
+    <a href="#about" class="hero__scroll" aria-label="Scroll to about section">
+      <span class="hero__scroll-line"></span>
+      <span class="hero__scroll-text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ============== TRANSITION (peach sandwich, squares emerge from cleft) ============== -->
+  <section class="transition" id="transition" aria-label="Visual transition">
+    <div class="transition__stage">
+      <div class="transition__peach" aria-hidden="true">
+        <img class="transition__peach-back" src="images/peach-emoji.png" alt=""
+             onerror="this.outerHTML='<span class=&quot;transition__peach-back transition__peach-fallback&quot;>🍑</span>'">
+        <img class="transition__peach-front" src="images/peach-emoji-front.png" alt=""
+             onerror="this.style.display='none'">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== ABOUT ============== -->
+  <section class="about" id="about">
+    <div class="about__inner">
+      <div class="about__eyebrow reveal">
+        <span class="square square--inline"></span>
+        <span>About the campaign</span>
+      </div>
+
+      <h2 class="about__headline reveal">
+        We can't end antisemitism with a billboard.<br />
+        <span class="about__headline-accent">But we can put up a brown square.</span>
+      </h2>
+
+      <div class="about__squares reveal" aria-hidden="true">
+        <span class="square"></span><span class="square"></span><span class="square"></span>
+        <span class="square"></span><span class="square"></span><span class="square"></span>
+        <span class="square"></span><span class="square"></span><span class="square"></span>
+        <span class="square"></span><span class="square"></span><span class="square"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== LETTER FROM THE FOUNDER ============== -->
+  <section class="letter" id="letter">
+    <div class="letter__inner">
+      <div class="letter__eyebrow reveal">
+        <span class="square square--inline"></span>
+        <span>A letter from the founder</span>
+      </div>
+
+      <div class="letter__body">
+        <p class="reveal">
+          As the marketing director of the Kendall Jenner Pepsi commercial,
+          I knew I had a unique gift to offer the fight against antisemitism.
+        </p>
+        <p class="reveal">
+          I decided to make the bold, disruptive decision to use Helvetica and bright pink.
+        </p>
+        <p class="reveal letter__kicker">
+          Can you believe we have a creative director and our copy isn't AI? Neither can we.
+        </p>
+      </div>
+
+      <div class="letter__signature reveal">
+        <p class="letter__signature-name">— Jeff</p>
+        <p class="letter__signature-title">Founder, jewbelieve.org</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== COMMAND CENTER (incident tracker) ============== -->
+  <section class="cc" id="command-center" aria-label="Incident tracker">
+    <div class="cc__inner">
+
+      <header class="cc__header">
+        <div class="cc__live">
+          <span class="cc__live-dot" aria-hidden="true"></span>
+          <span class="cc__live-text">Live</span>
+        </div>
+        <p class="cc__eyebrow">Brown Square Campaign · Threat Monitor</p>
+        <p class="cc__updated" id="ccUpdated">Last updated 0.4s ago</p>
+      </header>
+
+      <div class="cc__total">
+        <p class="cc__total-label">Total butt-related antisemitic incidents tracked, all-time</p>
+        <p class="cc__total-number" id="ccTotal" data-target="47892">0</p>
+        <p class="cc__total-delta">
+          <span class="cc__total-arrow">↑</span> 847% since 2020
+        </p>
+      </div>
+
+      <div class="cc__cards">
+        <div class="cc__card" data-color="textbook">
+          <p class="cc__card-num">01</p>
+          <p class="cc__card-name">Removal of Jewish butts from textbooks</p>
+          <p class="cc__card-value" data-target="12483">0</p>
+          <p class="cc__card-meta">+38% YoY</p>
+        </div>
+        <div class="cc__card" data-color="bgb">
+          <p class="cc__card-num">02</p>
+          <p class="cc__card-name">"Baby Got Back" played insultingly at B'nai Mitzvah</p>
+          <p class="cc__card-value" data-target="4201">0</p>
+          <p class="cc__card-meta">+52% YoY</p>
+        </div>
+        <div class="cc__card" data-color="chaps">
+          <p class="cc__card-num">03</p>
+          <p class="cc__card-name">Referring to Jews as "assless chaps"</p>
+          <p class="cc__card-value" data-target="2891">0</p>
+          <p class="cc__card-meta">+71% YoY</p>
+        </div>
+        <div class="cc__card" data-color="israel">
+          <p class="cc__card-num">04</p>
+          <p class="cc__card-name">Criticism of Israel that is definitely really about butts</p>
+          <p class="cc__card-value" data-target="28317">0</p>
+          <p class="cc__card-meta">+29% YoY</p>
+        </div>
+      </div>
+
+      <figure class="cc__chart-wrap">
+        <figcaption class="cc__chart-caption">Reported incidents, 2020–2026</figcaption>
+        <div class="cc__chart" id="ccChart" role="img"
+             aria-label="Line chart showing four categories of butt-related antisemitic incidents increasing from 2020 to 2026"></div>
+        <div class="cc__legend" id="ccLegend"></div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============== DOWNLOAD (free brown square PDF) ============== -->
+  <section class="download" id="download">
+    <div class="download__inner">
+
+      <div class="download__copy">
+        <div class="download__eyebrow reveal">
+          <span class="square square--inline"></span>
+          <span>Free Download</span>
+        </div>
+
+        <h2 class="download__headline reveal">
+          Get your free brown square today.
+        </h2>
+
+        <a href="printable%20brown%20square.pdf"
+           class="download__cta reveal"
+           target="_blank"
+           rel="noopener">
+          <span class="download__cta-icon" aria-hidden="true">
+            <svg viewBox="0 0 16 16" width="14" height="14" fill="none">
+              <path d="M8 2.5 V13.5 M3.5 9 L8 13.5 L12.5 9"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+            </svg>
+          </span>
+          <span>Download printable brown square</span>
+        </a>
+
+        <p class="download__meta reveal">PDF · 8.5&times;11&Prime; · Free</p>
+      </div>
+
+      <!-- Visual: a representation of the printable page itself -->
+      <div class="download__preview reveal" aria-hidden="true">
+        <div class="download__paper">
+          <span class="download__paper-square"></span>
+        </div>
+        <div class="download__paper-shadow"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============== STORE ============== -->
+  <section class="store" id="store">
+    <div class="store__inner">
+      <p class="store__eyebrow reveal">Merch</p>
+      <h2 class="store__headline reveal">
+        I made stickers
+      </h2>
+      <p class="store__copy reveal">
+        And also magnets and temporary tattoos, if you want them.
+      </p>
+      <a href="https://divanigun.bigcartel.com/category/fight-antisemitism" class="store__cta reveal" target="_blank" rel="noopener">
+        <span>Visit the store</span>
+        <span class="store__cta-arrow" aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__row">
+        <span class="footer__brand">jewbelieve<span class="footer__brand-tld">.org</span></span>
+        <span class="footer__year">© <span id="year"></span> the brown square campaign</span>
+      </div>
+      <p class="footer__disclaimer">
+        A satirical project.
+      </p>
+    </footer>
+  </section>
+
+  <!-- Body-level rain: brown squares fall here from the cleft, then continue
+       behind all subsequent section content. Stays in the viewport via fixed positioning. -->
+  <div class="squares-rain" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
